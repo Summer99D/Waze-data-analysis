@@ -1,4 +1,48 @@
+# Ignore Python virtual environments
 venv_pset6/
+venv/
+.venv/
+
+# Ignore specific large files
+Waze_merged_data.csv
+waze_data/*.csv
+venv_pset6/lib/python3.11/site-packages/kaleido/executable/bin/kaleido
+
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Distribution packages (if you're distributing Python code)
+*.egg
+*.egg-info
+dist/
+build/
+*.whl
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE configurations
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.iml
+.project
+.pydevproject
+
+# Log files
+*.log
+
+# Ignore CSV files in general
 *.csv
-venv_pset6/
-*.csv
+
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
